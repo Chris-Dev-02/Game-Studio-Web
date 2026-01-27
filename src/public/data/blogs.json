@@ -1,0 +1,52 @@
+[
+    {
+        "id": 0,
+        "title": "",
+        "date": "2025-03-02",
+        "thumbnail": "",
+        "summary": "",
+        "body": [
+            {
+                "content": ""
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "title": "How We Designed Our First Game",
+        "content": "This is a descrition",
+        "date": "2025-03-02",
+        "thumbnail": "../img/default-thumbnail.jpg",
+        "summary": "A look at the design process of our first game and the challenges we faced.",
+        "body": [
+            {
+                "content": "When we started our first game, we knew it would be a challenge. From planning to execution, every step taught us something new."
+            },
+            {
+                "content": "../img/default-thumbnail.jpg"
+            },
+            {
+                "content": "In this blog, we will share how we managed to complete our first title and what we learned along the way."
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Optimization in 2D Games",
+        "content": "This is a descrition",
+        "date": "2025-03-05",
+        "thumbnail": "../img/default-thumbnail.jpg",
+        "summary": "Tips on how to improve the performance of 2D games in engines like Unity and Godot.",
+        "body": [
+            {
+                "content": "One of the biggest issues in 2D games is maintaining stable performance, especially on low-end devices."
+            },
+            {
+                "content": "../img/default-thumbnail.jpg"
+            },
+            {
+                "content": "In this article, we explain key techniques to optimize graphics, physics, and logic in 2D games."
+            }
+        ]
+    }
+]
