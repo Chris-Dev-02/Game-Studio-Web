@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title || "Game Studio" %></title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+
+    <%- include("partials/navbar") %>
+
+    <main>
+        <article>
+            <h1><%= projectItem.title %></h1>
+            <small><%= projectItem.date %></small>
+
+            <img src="<%= projectItem.thumbnail %>" alt="<%= projectItem.title %>">
+
+            <p><%= projectItem.description %></p>
+
+            <% if (projectItem.images?.length) { %>
+                <section>
+                    <% projectItem.images.forEach(img => { %>
+                        <img src="<%= img.link %>" alt="<%= img.altText %>">
+                    <% }) %>
+                </section>
+            <% } %>
+
+            <% if (projectItem.links?.length) { %>
+                <ul>
+                    <% projectItem.links.forEach(link => { %>
+                        <li>
+                            <a href="<%= link.link %>"><%= link.platformName %></a>
+                        </li>
+                    <% }) %>
+                </ul>
+            <% } %>
+        </article>
+    </main>
+
+    <%- include("partials/footer") %>
+
+</body>
+</html>

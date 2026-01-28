@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title || "Game Studio" %></title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+
+    <%- include("partials/navbar") %>
+
+    <main>
+        <section class="news-list">
+            <% news.forEach(item => { %>
+                <a href="/news/<%= item.id %>" class="news-card">
+                    <img src="<%= item.thumbnail %>" alt="<%= item.title %>">
+
+                    <div class="news-card-content">
+                        <h2><%= item.title %></h2>
+                        <p><%= item.body?.[0]?.content || "" %></p>
+                    </div>
+                </a>
+            <% }) %>
+        </section>
+
+        <div class="pagination">
+            <% if (currentPage > 1) { %>
+                <a href="?page=<%= currentPage - 1 %>">← Prev</a>
+            <% } %>
+
+            <span>Page <%= currentPage %> of <%= totalPages %></span>
+
+            <% if (currentPage < totalPages) { %>
+                <a href="?page=<%= currentPage + 1 %>">Next →</a>
+            <% } %>
+        </div>
+    </main>
+
+    <%- include("partials/footer") %>
+
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title || "Game Studio" %></title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+
+    <%- include("partials/navbar") %>
+
+    <main>
+        <section class="hero">
+            <img src="/img/logo.png" alt="Studio Logo">
+        </section>
+
+        <section class="projects">
+            <h2>Projects</h2>
+            <div class="grid">
+                <% projects.forEach(project => { %>
+                    <a href="/project/<%= project.id %>" class="project-card">
+                        <img src="<%= project.thumbnail %>" alt="<%= project.title %>">
+                        <h3><%= project.title %></h3>
+                    </a>
+                <% }) %>
+            </div>
+        </section>
+
+        <section class="news">
+            <h2>Latest News</h2>
+            <% news.forEach(item => { %>
+                <article>
+                    <h3>
+                        <a href="/news/<%= item.id %>"><%= item.title %></a>
+                    </h3>
+                    <p><%= item.summary %></p>
+                    <small><%= item.date %></small>
+                </article>
+            <% }) %>
+        </section>
+    </main>
+
+    <%- include("partials/footer") %>
+
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title || "Game Studio" %></title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+
+    <%- include("partials/navbar") %>
+
+    <main>
+        <section class="faq">
+            <h1>Frequently Asked Questions</h1>
+
+            <% faq.forEach(item => { %>
+                <details class="faq-item">
+                    <summary><%= item.question %></summary>
+                    <p><%= item.answer %></p>
+                </details>
+            <% }) %>
+        </section>
+    </main>
+
+    <%- include("partials/footer") %>
+
+</body>
+</html>

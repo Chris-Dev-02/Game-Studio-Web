@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title><%= title || "Game Studio" %></title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+
+    <%- include("partials/navbar") %>
+
+    <main>
+        <article>
+            <h1><%= newsItem.title %></h1>
+            <small><%= newsItem.date %></small>
+
+            <% newsItem.body.forEach(block => { %>
+                <p><%= block.content %></p>
+            <% }) %>
+        </article>
+    </main>
+
+    <%- include("partials/footer") %>
+
+</body>
+</html>
