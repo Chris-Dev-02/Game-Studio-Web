@@ -1,0 +1,59 @@
+[
+    {
+        "id": 0,
+        "title": "How We Designed Our First Game",
+        "date": "2025-03-02",
+        "thumbnail": "../img/default-thumbnail.jpg",
+        "description": "A look at the design process of our first game and the challenges we faced.",
+        "images": [
+            {
+                "altText": "",
+                "link": ""
+            }
+        ],
+        "links": [
+            {
+                "platformName": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "title": "How We Designed Our First Game",
+        "date": "2025-03-02",
+        "thumbnail": "../img/default-thumbnail.jpg",
+        "description": "A look at the design process of our first game and the challenges we faced.",
+        "images": [
+            {
+                "altText": "",
+                "link": ""
+            }
+        ],
+        "links": [
+            {
+                "platformName": "",
+                "link": ""
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "projectName": "Optimization in 2D Games",
+        "date": "2025-03-05",
+        "thumbnail": "../img/default-thumbnail.jpg",
+        "description": "Tips on how to improve the performance of 2D games in engines like Unity and Godot.",
+        "images": [
+            {
+                "altText": "",
+                "link": ""
+            }
+        ],
+        "links": [
+            {
+                "platformName": "",
+                "link": ""
+            }
+        ]
+    }
+]

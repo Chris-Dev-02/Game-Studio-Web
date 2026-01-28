@@ -1,0 +1,12 @@
+// Improved structure for team members with social links and founder flag
+// {
+//   "name": "Alex Rivera",
+//   "role": "Game Director",
+//   "bio": "...",
+//   "photo": "...",
+//   "socials": {
+//     "twitter": "",
+//     "linkedin": ""
+//   },
+//   "isFounder": true
+// }

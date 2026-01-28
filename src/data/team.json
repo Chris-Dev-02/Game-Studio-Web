@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Alex Rivera",
+    "role": "Game Director",
+    "bio": "Focused on narrative design and world building.",
+    "photo": "/img/team/alex.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Morgan Lee",
+    "role": "Programmer",
+    "bio": "Gameplay systems, tools and engine integration.",
+    "photo": "/img/team/morgan.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Jamie Chen",
+    "role": "Artist",
+    "bio": "Concept art, characters and visual identity.",
+    "photo": "/img/team/jamie.jpg"
+  }
+]

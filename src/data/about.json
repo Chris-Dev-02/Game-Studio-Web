@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Who We Are",
+    "description": "We are an independent game studio focused on narrative-driven experiences..."
+  },
+  {
+    "title": "Our Philosophy",
+    "description": "We believe games should evoke emotion and curiosity...",
+    "image": "/img/philosophy.jpg",
+    "highlight": true
+  },
+  {
+    "title": "What We Do",
+    "description": "Game design, world building, prototyping and publishing..."
+  }
+]
